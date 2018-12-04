@@ -136,7 +136,8 @@ public void setAttributes(Model model) {
 //http://www.mkyong.com/spring-mvc/spring-mvc-form-handling-example/
     //Deals with approval button on admin 
     //This will be the page were we do all the verification.
-    @RequestMapping("/admin")
+    @RequestMapping("/admin/post")
+//    @RequireAnyRole("ROLE_ADMIN")
     public ModelAndView admin(){
 	System.out.println(postingsNeedApproval);
 
@@ -145,6 +146,7 @@ public void setAttributes(Model model) {
 		
 	return new ModelAndView("admin", params);
     }
+
     // https://hellokoding.com/spring-boot-hello-world-example-with-freemarker/
     //https://stackoverflow.com/questions/49154565/how-to-call-a-method-with-a-button-in-freemarker-dropwizard
     //https://spring.io/guides/tutorials/rest/
@@ -165,7 +167,7 @@ public void setAttributes(Model model) {
 	    }
 	}
 	
-	return "redirect:/admin";
+	return "redirect:/admin/post";
     }
 
     @ExceptionHandler(HttpAction.class)
@@ -188,7 +190,7 @@ public void setAttributes(Model model) {
 	    }
 	}
 	
-	return "redirect:/admin";
+	return "redirect:/admin/post";
     }
   
 }

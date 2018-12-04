@@ -22,7 +22,7 @@ public class CustomRoles {
 
 	// TODO: make the github_org_name a property set in the .json files
 	
-	public static final String github_org_name = "ucsb-cs56-f18";
+	public static final String github_org_name = "ucsb-buy-sell-members";
 	public static final String adminRoleName = "ROLE_ADMIN";
 	public static final String memberRoleName = "ROLE_MEMBER";
 	private static Logger logger =
