@@ -12,6 +12,15 @@ Description: Users can exchange free items. The two users are givers and getters
 
 ---
 
+### To run locally
+```
+mvn clean
+mvn compile
+mvn spring-boot:run
+```
+
+---
+
 ### To deploy to heroku
 ```
 mvn clean
