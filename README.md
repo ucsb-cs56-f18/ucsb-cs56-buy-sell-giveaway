@@ -16,6 +16,11 @@ Description: Users can exchange free items. The two users are givers and getters
 ```
 mvn clean
 mvn compile
+./setHerokuEnv.py --app ucsb-APPNAME
 mvn package heroku:deploy
+
+Note:test appname was ucsb-giveaway
+  must adjust for official site listed below 
+
 ```
 Website: https://cs56-f18-buy-sell-giveaway.herokuapp.com
