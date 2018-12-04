@@ -1,6 +1,8 @@
 #emacs
 *~
 
+.idea
+
 target
 # Compiled class file
 *.class
