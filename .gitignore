@@ -1,6 +1,23 @@
 #emacs
 *~
 
+# Don't store keystore files
+   *.jks
+   
+   localhost.json
+   heroku.json
+   secrets.json
+  .classpath
+  .project
+  .settings/
+  target/
+  test-output/
+  bin/
+  *.iml
+  .idea
+  sp-metadata.xml
+
+
 target
 # Compiled class file
 *.class

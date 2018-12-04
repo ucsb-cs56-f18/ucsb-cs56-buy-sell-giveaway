@@ -8,7 +8,7 @@
       <a class="nav-link" href="/">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/new_post">Make a New Post</a>
+      <a class="nav-link" href="/protected/new_post">Make a New Post</a>
     </li>
 
   </ul>
