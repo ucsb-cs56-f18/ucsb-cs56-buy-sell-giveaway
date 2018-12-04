@@ -1,7 +1,7 @@
 {
-"spring.data.mongodb.database":"bsdb",
-"spring.data.mongodb.host":"ds038888.mlab.com",
-"spring.data.mongodb.password":"REPLACE_WITH_PASSWORD",
-"spring.data.mongodb.port":"38888",
-"spring.data.mongodb.username":"admin"
+"spring.data.mongodb.database":"fill-in-database-name",
+"spring.data.mongodb.host":"fill-in-host",
+"spring.data.mongodb.password":"fill-in-password",
+"spring.data.mongodb.port":"fill-in-port",
+"spring.data.mongodb.username":"fill-in-username"
 }
