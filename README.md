@@ -34,7 +34,10 @@ Note:test appname was ucsb-giveaway
 ```
 Website: https://cs56-f18-buy-sell-giveaway.herokuapp.com
 
+
 ### Notes for testing:
+
+```
 https://ucsb-giveaway.herokuapp.com/
 is unofficial site test for oauth fully functional on its own
 
@@ -45,4 +48,4 @@ https://ucsb-giveaway.herokuapp.com/admin/post
 page to approve post, must be an admin to visit or error page 403 will occur
 note: I added wilson to group https://github.com/ucsb-buy-sell-members as an admin, 
 so he should be able to view page and approve/remove posts to go to homepage.
-
+```
